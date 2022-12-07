@@ -17,3 +17,13 @@ C:\Users\valen\OneDrive\Documents\GitHub\ProyekDD\ProyekDD\obj\Debug\ProyekDD.cs
 C:\Users\valen\OneDrive\Documents\GitHub\ProyekDD\ProyekDD\obj\Debug\ProyekDD.csproj.CoreCompileInputs.cache
 C:\Users\valen\OneDrive\Documents\GitHub\ProyekDD\ProyekDD\obj\Debug\ProyekDD.exe
 C:\Users\valen\OneDrive\Documents\GitHub\ProyekDD\ProyekDD\obj\Debug\ProyekDD.pdb
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.exe.config
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.exe
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.pdb
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.AssemblyReference.cache
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormLogin.resources
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.Properties.Resources.resources
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.GenerateResource.cache
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.CoreCompileInputs.cache
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.exe
+C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.pdb

@@ -21,6 +21,7 @@ namespace ProyekDD
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            namaDB = etNamaDB.Text.ToLower();
             username = etUsername.Text;
             password = etPassword.Text;
 
@@ -28,23 +29,39 @@ namespace ProyekDD
             {
                 MessageBox.Show("Inputan tidak boleh kosong!");
             }
-            else if (username.Equals("system") && password.Equals("jeffrey"))
+            else if (username.Equals("system") && password.Equals("jeffrey") && namaDB.Equals("cabangjual"))
             {
-                namaDB = etNamaDB.Text.ToUpper();
+                namaDB = etNamaDB.Text.ToLower();
                 MessageBox.Show(namaDB);
 
                 conn = new OracleConnection("Data Source = " + namaDB + "; User ID = " + etUsername.Text + "; password = " + etPassword.Text);
                 conn.Open(); conn.Close();
-                FormJual ma = new FormJual();
-                ma.Show();
+                FormJual fj = new FormJual();
+                fj.Show();
             } 
-            else if (username.Equals("cabangservis") && password.Equals("valen"))
+            else if (username.Equals("system") && password.Equals("valen") && namaDB.Equals("cabangservis"))
             {
+                namaDB = etNamaDB.Text.ToLower();
+                MessageBox.Show(namaDB);
 
+                conn = new OracleConnection("Data Source = " + namaDB + "; User ID = " + etUsername.Text + "; password = " + etPassword.Text);
+                conn.Open(); conn.Close();
+                FormServis fs = new FormServis();
+                fs.Show();
             } 
-            else if (username.Equals("cabangcuci") && password.Equals("angga"))
+            else if (username.Equals("system") && password.Equals("angga") && namaDB.Equals("cabangcuci"))
             {
+                namaDB = etNamaDB.Text.ToLower();
+                MessageBox.Show(namaDB);
 
+                conn = new OracleConnection("Data Source = " + namaDB + "; User ID = " + etUsername.Text + "; password = " + etPassword.Text);
+                conn.Open(); conn.Close();
+                FormCuci fc = new FormCuci();
+                fc.Show();
+            }
+            else
+            {
+                MessageBox.Show("namaDB tidak ditemukan atau Username dan Password tidak valid");
             }
         }
     }

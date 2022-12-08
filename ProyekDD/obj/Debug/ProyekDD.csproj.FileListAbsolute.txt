@@ -27,3 +27,13 @@ C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.c
 C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.CoreCompileInputs.cache
 C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.exe
 C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.pdb
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.exe.config
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.exe
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\bin\Debug\ProyekDD.pdb
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.AssemblyReference.cache
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormLogin.resources
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.Properties.Resources.resources
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.GenerateResource.cache
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.csproj.CoreCompileInputs.cache
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.exe
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.pdb

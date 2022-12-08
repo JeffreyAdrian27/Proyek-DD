@@ -29,7 +29,7 @@ namespace ProyekDD
             {
                 MessageBox.Show("Inputan tidak boleh kosong!");
             }
-            else if (username.Equals("system") && password.Equals("jeffrey") && namaDB.Equals("cabangjual"))
+            else if (username.Equals("lisa") && password.Equals("lisa") && namaDB.Equals("cabangjual"))
             {
                 namaDB = etNamaDB.Text.ToLower();
                 MessageBox.Show(namaDB);

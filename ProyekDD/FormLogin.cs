@@ -39,11 +39,10 @@ namespace ProyekDD
                 FormJual fj = new FormJual();
                 fj.Show();
             } 
-            else if (username.Equals("bella") && password.Equals("bella") && namaDB.Equals("cabangservis"))
+            else if (username.Equals("VALEN") && password.Equals("VALEN") && namaDB.Equals("cabangservis"))
             {
                 namaDB = etNamaDB.Text.ToLower();
                 MessageBox.Show(namaDB);
-
                 conn = new OracleConnection("Data Source = " + namaDB + "; User ID = " + etUsername.Text + "; password = " + etPassword.Text);
                 conn.Open(); conn.Close();
                 FormServis fs = new FormServis();

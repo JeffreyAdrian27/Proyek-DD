@@ -39,7 +39,7 @@ namespace ProyekDD
                 FormJual fj = new FormJual();
                 fj.Show();
             } 
-            else if (username.Equals("VALEN") && password.Equals("VALEN") && namaDB.Equals("cabangservis"))
+            else if (username.Equals("valen") && password.Equals("valen") && namaDB.Equals("cabangservis"))
             {
                 namaDB = etNamaDB.Text.ToLower();
                 MessageBox.Show(namaDB);

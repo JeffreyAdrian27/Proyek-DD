@@ -37,12 +37,12 @@ namespace ProyekDD
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.cbHelm = new System.Windows.Forms.ComboBox();
-            this.cbCustomer = new System.Windows.Forms.ComboBox();
             this.cbKaryawan = new System.Windows.Forms.ComboBox();
             this.tbHarga = new System.Windows.Forms.TextBox();
             this.tbJumlah = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnBeli = new System.Windows.Forms.Button();
+            this.tbCustomer = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -112,22 +112,10 @@ namespace ProyekDD
             // cbHelm
             // 
             this.cbHelm.FormattingEnabled = true;
-            this.cbHelm.Items.AddRange(new object[] {
-            "KYT",
-            "AA",
-            "BB"});
             this.cbHelm.Location = new System.Drawing.Point(150, 97);
             this.cbHelm.Name = "cbHelm";
             this.cbHelm.Size = new System.Drawing.Size(200, 24);
             this.cbHelm.TabIndex = 11;
-            // 
-            // cbCustomer
-            // 
-            this.cbCustomer.FormattingEnabled = true;
-            this.cbCustomer.Location = new System.Drawing.Point(150, 135);
-            this.cbCustomer.Name = "cbCustomer";
-            this.cbCustomer.Size = new System.Drawing.Size(200, 24);
-            this.cbCustomer.TabIndex = 12;
             // 
             // cbKaryawan
             // 
@@ -168,17 +156,24 @@ namespace ProyekDD
             this.btnBeli.UseVisualStyleBackColor = true;
             this.btnBeli.Click += new System.EventHandler(this.btnBeli_Click);
             // 
+            // tbCustomer
+            // 
+            this.tbCustomer.Location = new System.Drawing.Point(150, 135);
+            this.tbCustomer.Name = "tbCustomer";
+            this.tbCustomer.Size = new System.Drawing.Size(200, 22);
+            this.tbCustomer.TabIndex = 19;
+            // 
             // FormJual
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(396, 450);
+            this.Controls.Add(this.tbCustomer);
             this.Controls.Add(this.btnBeli);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.tbJumlah);
             this.Controls.Add(this.tbHarga);
             this.Controls.Add(this.cbKaryawan);
-            this.Controls.Add(this.cbCustomer);
             this.Controls.Add(this.cbHelm);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -189,6 +184,7 @@ namespace ProyekDD
             this.Controls.Add(this.label1);
             this.Name = "FormJual";
             this.Text = "FormJual";
+            this.Load += new System.EventHandler(this.FormJual_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,11 +200,11 @@ namespace ProyekDD
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox cbHelm;
-        private System.Windows.Forms.ComboBox cbCustomer;
         private System.Windows.Forms.ComboBox cbKaryawan;
         private System.Windows.Forms.TextBox tbHarga;
         private System.Windows.Forms.TextBox tbJumlah;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnBeli;
+        private System.Windows.Forms.TextBox tbCustomer;
     }
 }

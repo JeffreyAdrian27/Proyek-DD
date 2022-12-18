@@ -39,7 +39,7 @@ namespace ProyekDD
             this.cbHelm = new System.Windows.Forms.ComboBox();
             this.cbCustomer = new System.Windows.Forms.ComboBox();
             this.cbKaryawan = new System.Windows.Forms.ComboBox();
-            this.tbSubtotal = new System.Windows.Forms.TextBox();
+            this.tbHarga = new System.Windows.Forms.TextBox();
             this.tbJumlah = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btnBeli = new System.Windows.Forms.Button();
@@ -96,9 +96,9 @@ namespace ProyekDD
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(40, 261);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(64, 17);
+            this.label6.Size = new System.Drawing.Size(47, 17);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Subtotal ";
+            this.label6.Text = "Harga";
             // 
             // label7
             // 
@@ -112,6 +112,10 @@ namespace ProyekDD
             // cbHelm
             // 
             this.cbHelm.FormattingEnabled = true;
+            this.cbHelm.Items.AddRange(new object[] {
+            "KYT",
+            "AA",
+            "BB"});
             this.cbHelm.Location = new System.Drawing.Point(150, 97);
             this.cbHelm.Name = "cbHelm";
             this.cbHelm.Size = new System.Drawing.Size(200, 24);
@@ -133,12 +137,12 @@ namespace ProyekDD
             this.cbKaryawan.Size = new System.Drawing.Size(200, 24);
             this.cbKaryawan.TabIndex = 13;
             // 
-            // tbSubtotal
+            // tbHarga
             // 
-            this.tbSubtotal.Location = new System.Drawing.Point(150, 261);
-            this.tbSubtotal.Name = "tbSubtotal";
-            this.tbSubtotal.Size = new System.Drawing.Size(200, 22);
-            this.tbSubtotal.TabIndex = 15;
+            this.tbHarga.Location = new System.Drawing.Point(150, 261);
+            this.tbHarga.Name = "tbHarga";
+            this.tbHarga.Size = new System.Drawing.Size(200, 22);
+            this.tbHarga.TabIndex = 15;
             // 
             // tbJumlah
             // 
@@ -156,12 +160,13 @@ namespace ProyekDD
             // 
             // btnBeli
             // 
-            this.btnBeli.Location = new System.Drawing.Point(205, 360);
+            this.btnBeli.Location = new System.Drawing.Point(150, 366);
             this.btnBeli.Name = "btnBeli";
             this.btnBeli.Size = new System.Drawing.Size(75, 38);
             this.btnBeli.TabIndex = 18;
             this.btnBeli.Text = "Beli";
             this.btnBeli.UseVisualStyleBackColor = true;
+            this.btnBeli.Click += new System.EventHandler(this.btnBeli_Click);
             // 
             // FormJual
             // 
@@ -171,7 +176,7 @@ namespace ProyekDD
             this.Controls.Add(this.btnBeli);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.tbJumlah);
-            this.Controls.Add(this.tbSubtotal);
+            this.Controls.Add(this.tbHarga);
             this.Controls.Add(this.cbKaryawan);
             this.Controls.Add(this.cbCustomer);
             this.Controls.Add(this.cbHelm);
@@ -201,7 +206,7 @@ namespace ProyekDD
         private System.Windows.Forms.ComboBox cbHelm;
         private System.Windows.Forms.ComboBox cbCustomer;
         private System.Windows.Forms.ComboBox cbKaryawan;
-        private System.Windows.Forms.TextBox tbSubtotal;
+        private System.Windows.Forms.TextBox tbHarga;
         private System.Windows.Forms.TextBox tbJumlah;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btnBeli;

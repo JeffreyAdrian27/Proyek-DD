@@ -39,3 +39,5 @@ C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.exe
 C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.pdb
 C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormJual.resources
 C:\Users\valen\OneDrive\Documents\GitHub\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormServis.resources
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormJual.resources
+C:\Users\Jeffrey\Downloads\DD\ProyekDD\Proyek-DD\ProyekDD\obj\Debug\ProyekDD.FormServis.resources
